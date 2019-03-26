@@ -1,0 +1,558 @@
+*{
+margin: 0px ; 
+outline: 0px;
+ padding: 0px;
+}
+.clear{overflow: hidden;}
+.nav-main {
+	background-image: url("images/002.jpg");
+	font-family: sans-serit;
+	padding: 8px;
+	background-color: #8F8989;
+}
+.name {
+	float: left;
+	width: 200px;
+	margin: -11px;
+	margin-left: 38px;
+}
+.name a {
+	color: #fff;
+	font-size: 30px;
+	text-decoration: none;
+}
+.nav-bar {
+	/* float: right; */
+	text-align: right;
+	text-decoration: none;
+	display: block;
+	align-content: left;
+}
+
+.nav-bar a {
+	text-decoration: none;
+	margin: 18px;
+	font-size: 18px;
+	color: #fff;
+}
+
+button[name="loadMore"] {
+	/* text-align: center; */
+	margin-left: 44%;
+	width: 157px;
+	padding: 5px;
+	margin-top: 5px;
+	margin-bottom: 8px;
+}
+.shop-header{
+	color: purple;
+	text-align: center;
+}
+
+.dropdown-my-account{
+position: relative;
+display: inline-block;
+}
+
+.dropdown-my-account-menu{
+display: block;
+
+}
+.dropdown-my-account-menu{
+display: none;
+
+}
+
+.dropdown-my-account:hover .dropdown-my-account-menu{
+	display: block;
+}
+
+
+.main-content{
+	width: 100%;
+}
+.sidebar {
+	text-align: center;
+	margin-top: 14px;
+	margin-bottom: 13px;
+}
+.sidebar a {
+	/* margin-left: 195px; */
+	/* text-align: center; */
+	margin-right: 90px;
+	font-size: 18px;
+	color: #000;
+}
+.sidebar ul{}
+.sidebar ul li{}
+.sidebar ul li a {
+	margin-left: 55px;
+	/* margin-bottom: 1px; */
+	/* margin-top: -25px; */
+	/* padding: 9px; */
+	text-decoration: none;
+	color: #0000DF;
+}
+
+.sidebar ul li a:hover{
+	color:white;
+}
+.content {
+	width: 100%;
+	height: 100%;
+	min-height: 700px;
+}
+.content img {
+		width:100%;
+	    height: 100%;
+
+}
+
+.footer-main{
+	background:#F0EBDB ;
+	text-align:center;
+
+}
+.footer {
+	overflow: hidden;
+	/* margin-top: 20px; */
+	width: 100%;
+	/* margin-top: 27px; */
+}
+.footer-main h1{
+	padding-top:20px;
+}
+.footer-main p{}
+input[name="mail"]::-webkit-input-placeholder::before{
+	font-size: 20px;
+	color:#fff;
+
+}
+
+input[name="mail"] {
+	border: none;
+	background: #F0EBDB;
+	margin-top: 8px;
+	font-size: 20px;
+	padding-bottom: 70px;
+	text-underline-position: center;
+	text-decoration: underline;
+	color: #8F8F8F;
+}
+
+input[name= "mail"]:hover{
+text-decoration: underline #000;
+}
+
+
+.add-product{
+	text-align: center;
+}
+
+.add-product table{
+margin-left: 379px;
+}
+
+.add-product table tr{
+	margin-top: 2px;
+}
+
+input[name="submit"]{
+	margin-left: -203px;
+	width:100px;
+	margin-top: 20px;
+}
+
+input[name="jeans-name"]{
+
+}
+
+.product-main {
+ 
+  margin-left: 122px;
+}
+.sidebyside {
+	float: left;
+	width: 300px;
+	height: 200px;
+	/* border-style: solid; */
+	margin: 5px;
+	margin-bottom: 59px;
+	text-align: center;
+	margin-top: 22px;
+}
+
+.product-image img {
+	/* float: left; */
+	width: 300px;
+	height: 200px;
+	/* border-style: solid; */
+	margin: 0px;
+	padding: 0px;
+	outline: 0px;
+	margin-bottom: 4px;
+}
+
+.cart-button{
+	display: none;
+}
+
+.product-image:hover .cart-button{
+
+	display: block;
+	margin-top: -36px;
+
+}
+
+.product-image:hover{
+	
+        
+		transition: 0.4s;
+}
+
+.admin-content{
+	background: url('/images/002.jpg');
+	width: 100%;
+	height: 100%;
+	margin:0px;
+	padding: 0px;
+	outline:0px;
+	min-height: 600px;
+
+}
+.welcome-msg h2{
+text-align: center;
+margin-top: 20px;
+}
+
+.admin-btn{
+	margin-left: 40%;
+}
+.admin-btn button {
+	background: #F14000;
+	border: none;
+	text-align: center;
+}
+.admin-btn button a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 100%;
+}
+
+.product-main h2{
+	text-align: center;
+	margin-top: 40px;
+}
+
+.admin-content-login {
+	background: url('/images/002.jpg');
+	width: 120%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	outline: 0px;
+	/* opacity: 0.5; */
+}
+
+.login-header{
+
+}
+
+.login-header h4 {
+	color: #ffffff;
+	margin-left: 13px;
+	border-bottom: 1px solid beige;
+}
+
+
+.login-form {
+	background: #000;
+	opacity: 0.5;
+	width: 376px;
+	height: 355px;
+	margin-left: 36%;
+	opacity: .5;
+	opacity: 0.5;
+	margin-top: 25px;
+}
+.register-form {
+	background: #000;
+	opacity: 0.5;
+	width: 376px;
+	height: 555px;
+	margin-left: 36%;
+	opacity: .5;
+	opacity: 0.5;
+	margin-top: 25px;
+}
+.login-form form , .register-form form{
+	align-content: center;
+	margin-left: 93px;
+	/* size: 93px; */
+	color: beige;
+}
+.login-form h3,.register-form h3{
+	color: #ffffff;
+	font-size: 18px;
+}
+.login-form h3 ,a , .register-form h3 ,a {
+	margin-left: 40px;
+}
+.login-form input{
+
+}
+input[name="firstName"],input[name="lastName"],
+input[name="retypePassword"]
+,input[name="email"] ,input[name = "password"]{
+	/* text-align: center; */
+	background: none;
+	border: none;
+	border-bottom: 1px solid beige;
+	color: beige;
+}
+
+input[name="login-btn"] {
+	background: #FD0000;
+}
+
+.product_details{
+	min-height: 600px;
+}
+.product_details img {
+	height: 100%;
+	width: 55%;
+	background: #F5F8FA;
+	min-height: 600px;
+}
+
+
+.img-zoom-container {
+  position: relative;
+}
+
+.img-zoom-lens {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  /*set the size of the lens:*/
+  width: 10px;
+  height: 10px;
+}
+
+.img-zoom-result {
+  border: 1px solid #d4d4d4;
+  /*set the size of the result div:*/
+height: 600px;
+width: 500px;
+}
+
+.info {
+	float: right;
+	width: 37.4%;
+	text-align: center;
+	background: #eeeeee;
+	height: 100%;
+	color: pink;
+	margin-top: 2px;
+	min-height: 600px;
+}
+
+.info h3 {
+	margin-top: -31px;
+	margin-left: -87px;
+}
+.info-tag{}
+.info-tag p {
+	color: #000;
+	width: 50px;
+	margin-left: 26px;
+	margin-top: 40px;
+	border: 2px solid magenta;
+	border-radius: 7px;
+	font-size: 65px;
+}
+.info-jeans-description {
+	color: #000;
+	font-size: 20px;
+	width: 330px;
+	/* border-bottom: 1 px solid black; */
+	border-bottom: 1px solid aliceblue;
+	/* margin-left: 59px; */
+	margin-left: 40px;
+}
+
+.info-jeans-description p {
+	font-size: 16px;
+	/* float: left; */
+	margin-left: -145px;
+}
+
+.info-jeans-price {
+	border-bottom: 1px solid aliceblue;
+	margin-top: 10px;
+	margin-bottom: 16px;
+	width: 330px margin-left:40px;
+	width: 330px;
+	margin-left: 40px;
+}
+.info-jeans-price a {
+	float: right;
+
+}
+.info-jeans-price p{
+	font-size: 18px;
+	color: #000;
+	text-align: left;
+	margin-left: 64px;
+	margin-bottom: 42px;
+}
+
+
+.info-jeans-color {
+	border-bottom: 1px solid aliceblue;
+	margin-top: 10px;
+	margin-bottom: 16px;
+	width: 330px;
+	margin-left: 40px;
+}
+
+.info-jeans-color p{
+	font-size: 14px;
+	color: #000;
+	text-align: left;
+	margin-left: 64px;
+	margin-bottom: 42px;
+}
+
+.size {
+	color: #000;
+	text-align: left;
+	margin-left: 109px;
+	font-size: 18px;
+}
+
+.order-button{
+margin-top: 5px;
+}
+button[name="order-btn"] ,
+button[name="cart-btn"]{
+
+	margin-top: 5px;
+}
+button[name="wish-btn"]{
+	margin-top: 5px;
+	color:#000;
+	background: none;
+	border:1px solid gray;
+	width: 250px;
+}
+
+
+.count{
+	display: none;
+}
+
+.cart-box {
+	width: 707px;
+	height: 100%;
+	margin-left: 190px;
+	float: left;
+}
+
+.cart-box table tr th {
+	margin-left: 20px;
+	margin: 37px;
+	background: #8F8989;
+	width: 278px;
+	margin-left: 45px;
+	color: #fff;
+	padding: 10px;
+	/* border: none; */
+}
+.cart-items{
+
+}
+
+.cart-items table tr td {
+	border: none;
+	/* margin-right: -17px !important; */
+	/* margin: 50px; */
+	width: 39%;
+}
+
+.cart-items table tr {
+	margin-bottom: 1px solid black;
+	border-bottom: 1px solid #8F8989;
+}
+.cart-items tr td{
+margin-left: 20px;
+border: 1px solid black;
+}
+
+.cart-items  img{
+	width:100px;
+	height: 100px;
+}
+
+.checkout-button{
+	margin-left: 71%;
+}
+
+.shoppingIndex{}
+.shoppingIndex a {}
+
+.cart-title h1 {
+	margin-left: 296px;
+	margin-top: 45px;
+	font-family: railway inherit;
+}
+
+.checkout-button a {
+	width: 370px;
+	font-size: 100%;
+	font-size: 23px;
+	padding: 2px;
+	/* padding-right: 189px; */
+}
+.cart-items p{
+	margin-left: 25%;
+	margin-bottom: 50px;
+}
+
+.order-summary {
+	float: right;
+	width: 400px;
+	margin-bottom: 13px;
+}
+
+.order-summary table tr th {
+	background: #8F8989;
+	color: #fff;
+	width: 375px;
+	/* margin-left: -75px; */
+	/* margin-bottom: 30px; */
+	padding: 10px;
+	text-align: center;
+	/* margin-right: -50px; */
+}
+.cart{
+	position: relative;
+}
+.reviewForm{
+	margin-left: 30%;
+}
+.shoppingIndex{
+	margin-left: 30%;
+	margin-top: 100px;
+}
+
+.review{
+	margin-left: 100px;
+}
+
+.review a{
+	margin-left: -10px;
+}
+.cart-items table tr td a{
+	margin-left: -5px;
+}
+}
