@@ -1,10 +1,12 @@
 <?php
 
 namespace App\Http\Controllers;
-use Auth;
+// use Auth;
 use Illuminate\Http\Request;
 use App\jeanserProduct;
 use session;
+use Illuminate\Support\Facades\Auth;
+
 
 class cartController extends Controller
 {
@@ -25,11 +27,19 @@ class cartController extends Controller
     }
 
     public function checkout(Request $request){
-        if(!$request->Session()->has('product'))
-            return view('jeanser.shopping-cart');
-        if(!Auth::user())
-            return view('auth.login');
-        return view('jeanser.checkout');
+        // if(!$request->Session()->has('product'))
+        //     return view('jeanser.shopping-cart');
+        // if(!Auth::user())
+        //     return view('auth.login');
+        // return view('jeanser.checkout');
+
+        if(Auth::check()){
+            // the user is logged in 
+            return view('jeanser.checkout');
+
+        }else{
+            return 'not logged in ';
+        }
     }
 
     public function loginCheckout(Request $request){

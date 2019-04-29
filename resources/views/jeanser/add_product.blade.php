@@ -14,7 +14,7 @@
 		<td><input type="text" name="jeans-name" size="40" required></td>
 	</tr>
 	
-
+<br>
 		<tr>
 		<td><strong>Category</strong></td>
 		<td><input type="text" name="jeans-category" size="40" list = "category-list" autocomplete="off">
@@ -28,12 +28,14 @@
 		</td>
 
 	</tr>
+	<br>
 
 		<tr>
 		<td><strong>Size</strong></td>
 		<td><input type="text" name="jeans-size" size="40" required></td>
 
 	</tr>
+	<br>
 	<tr>
 		
 	</tr>
@@ -42,6 +44,7 @@
 		<td><strong>Price</strong></td>
 		<td><input type="text" name="jeans-price" size="40" required></td>
 	</tr>
+	<br>
 
 	<tr>
 		

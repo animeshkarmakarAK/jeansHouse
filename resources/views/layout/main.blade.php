@@ -13,7 +13,7 @@
 	</div>
 
 		<div class="nav-bar">
-			<a href="{{ url('shopping-cart') }}"> <i class="fa fa-shopping-bag"></i>My bag<span class="badge">{{count(Session::get('product'))}}</span></a>
+			<a href="{{ url('shopping-cart') }}"> <i class="fa fa-shopping-bag"></i>My bag<span class="badge">{{-- {{count(Session::get('product'))}} --}}</span></a>
 			<a href="#"><i class="fa fa-bookmark"></i>My favourite</a>
 			
 			<div class="dropdown-my-account">

@@ -13,6 +13,9 @@
 
 
 
+Route::get('/',function(){
+	return view('welcome');
+});
  
  Route::post('/show','basicController@show');
 	/*Route::get('index','basicController@index');
@@ -44,6 +47,12 @@ echo "<br>";
 echo "there is no user ";
 
 });
+
+ 
+// Route::get('upload_check',function(){
+// 	return view('upload');
+// })
+
 
 
 Route::get('upload','basicController@upload')->name('upload');
@@ -113,3 +122,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 //songscontroller -- outside work not related this project 
 Route::resource('songs','songscontroller');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
