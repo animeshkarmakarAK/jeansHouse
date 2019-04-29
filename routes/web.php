@@ -14,7 +14,7 @@
 
 
 Route::get('/',function(){
-	return view('welcome');
+	return view('jeanser.home');
 });
  
  Route::post('/show','basicController@show');
