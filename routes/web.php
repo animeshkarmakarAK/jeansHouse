@@ -33,47 +33,18 @@ Route::get('/login', 'HomeController@login');
 Route::get('/register', 'homeController@register');
 
 Route::get('/home', 'HomeController@index')->name('home');
-
-// fetching data from database ...this is easy man 
-Route::get('/getall',function(){
-$data = DB::select("select * from users");
-if (count($data)>0){
-	# code...
-
-echo "<br>";
-print_r($data);
-echo "<br>";
-}else
-echo "there is no user ";
-
-});
-
- 
-// Route::get('upload_check',function(){
-// 	return view('upload');
-// })
-
-
-
 Route::get('upload','basicController@upload')->name('upload');
 Route::post('upload','basicController@store');
 
 
 Route::get('/jhome','jeanserController@jeanserHome')->name('home');
-Route::get('/add product','jeanserController@addProduct')->name('add product');
+Route::get('/add product','jeanserController@addProduct')->name('addproduct');
 
 Route::post('/add product','jeanserController@addedProduct');
 
 Route::get('/mens-product','jeanserController@mensProduct')->name('mens-product');
 Route::post('/image_store','jeanserController@store');
 
-/*
-    Route::get('/mens-product', function () {
-
-    $pant = jeanserProduct::table('product')->get();
-
-    return view('mens-product', ['pant' => $pant]);
-})->name('mens-product');*/
 
 Route::get('/womens-product','jeanserController@womensProduct')->name('womens-product');
 Route::get('/boys-product','jeanserController@boysProduct')->name('boys-product');
@@ -83,6 +54,7 @@ Route::get('/babies-product','jeanserController@babiesProduct')->name('babies-pr
 Route::get('/adminHome','jeanserController@adminHome')->name('admin');
 
 Route::get('/admin','jeanserController@adminLogin');
+
 Route::post('/adminLogging','jeanserController@adminLogging');
 Route::get('/productDetail','jeanserController@productDetail');
 Route::get('/productDetail/{product_id}','jeanserController@productDetail')->name('productDetail');
@@ -121,8 +93,18 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 
 //songscontroller -- outside work not related this project 
-Route::resource('songs','songscontroller');
-
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+
+//** making adming with template **//
+
+Route::get('/admin/admin','adminController@index');
+Route::get('/admin/login','adminController@login');
+Route::get('/admin/register','adminController@register');
+Route::get('/admin/forgot-password','adminController@forgotPassword');
+Route::get('/admin/charts','adminController@charts');
+Route::get('/admin/blank','adminController@blank');
+Route::get('/admin/404','adminController@fourzerofour');
+Route::get('/admin/customproduct','adminController@customproduct');

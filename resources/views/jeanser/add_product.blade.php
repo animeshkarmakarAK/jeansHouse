@@ -1,3 +1,4 @@
+@include('admin/partials/header')
 @extends('layout.admin')
 
 
@@ -27,6 +28,13 @@
 		</datalist>
 		</td>
 
+	</tr>
+
+	<tr>
+		<td><strong>Sub-Category</strong></td>
+		<td>
+			<input type="text" name="sub-category" size="40" autocomplete="off">
+		</td>
 	</tr>
 	<br>
 

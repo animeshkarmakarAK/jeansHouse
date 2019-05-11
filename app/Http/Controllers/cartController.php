@@ -38,7 +38,9 @@ class cartController extends Controller
             return view('jeanser.checkout');
 
         }else{
-            return 'not logged in ';
+            $msg = "Login first";
+            return redirect('/checkout',compact('msg'));
+            // return $msg;
         }
     }
 

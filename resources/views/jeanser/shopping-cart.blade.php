@@ -7,6 +7,7 @@
 </div>
 
 
+
 <div class="cart">
 @if(Session::has('product'))
 <div class="count">
@@ -111,6 +112,12 @@
 
 
 </div>
+
+@if ($msg)
+    <div class="alert alert-danger col-md-3 ml-2" style="margin-left: 35px; margin-top: 30px;">
+    {{$msg}}
+    </div>
+@endif
 
 @if(session::has('product'))
 <div class="checkout-button">
