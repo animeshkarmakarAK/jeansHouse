@@ -10,7 +10,7 @@
                   <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
                       <div class="h5 mb-0 font-weight-bold text-gray-800">
-                      	<a class="font-weight-bold btn" href="#">Add a New Product</a></div>
+                      	<a class="font-weight-bold btn" href="{{ url('add product') }}">Add a New Product</a></div>
                     </div>
                     <div class="col-auto">
                       <i class="fas fa-plus fa-2x text-gray-300"></i>

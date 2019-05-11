@@ -1,8 +1,13 @@
 @include('admin/partials/header')
-@extends('layout.admin')
+@include('admin/partials/sidebar')
+@include('admin/partials/nav')
+
+{{-- @extends('layout.admin') --}}
 
 
-@section('content')
+{{-- @section('content') --}}
+
+<div class="row justify-content-center align-content-center">
 <div class="add-product" >
 <h3>Add product with product details </h3>
 <table align="center !important">
@@ -82,4 +87,8 @@
 </form>
 </table>
 </div>
-@endsection
+</div>
+
+
+@include('admin/partials/footer')
+{{-- @endsection --}}
