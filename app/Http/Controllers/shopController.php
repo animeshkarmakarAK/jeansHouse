@@ -12,4 +12,9 @@ class shopController extends Controller
       	$pant = jeanserProduct::orderBy('id','desc')->get();
     	return view('jeanser.shop',compact('pant'));
     }
+
+    public function view(){
+      	$product = jeanserProduct::orderBy('id','desc')->get();
+    	return view('admin.view',compact('product'));
+    }
 }

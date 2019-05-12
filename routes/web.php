@@ -108,3 +108,5 @@ Route::get('/admin/charts','adminController@charts');
 Route::get('/admin/blank','adminController@blank');
 Route::get('/admin/404','adminController@fourzerofour');
 Route::get('/admin/customproduct','adminController@customproduct');
+Route::get('/admin/view','shopController@view');
+Route::get('/admin/customize/{id}','adminController@customizeProduct');

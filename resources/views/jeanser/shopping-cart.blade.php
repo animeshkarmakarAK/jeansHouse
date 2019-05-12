@@ -113,7 +113,7 @@
 
 </div>
 
-@if ($msg)
+@if (session('msg'))
     <div class="alert alert-danger col-md-3 ml-2" style="margin-left: 35px; margin-top: 30px;">
     {{$msg}}
     </div>

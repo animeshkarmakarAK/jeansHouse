@@ -15,7 +15,7 @@ class basicController extends Controller
     public function show(Request $request){
      $name = $request->input('name');
      $path = $request->path();
-      return (  " inputted name =  $name  and path =  $path  your form is working man and method  adn url");
+      return (  " inputted name =  $name  and path =  $path  your form is working man and method  and url");
     }
 
 

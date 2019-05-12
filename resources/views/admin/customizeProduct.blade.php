@@ -27,7 +27,7 @@
                   <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
                       <div class="h5 mb-0 font-weight-bold text-gray-800">
-                      	<a class="font-weight-bold btn" href="#">View Products</a></div>
+                      	<a class="font-weight-bold btn" href="{{ url('admin/view') }}">View Products</a></div>
                     </div>
                     <div class="col-auto">
                       <i class="fas fa-camera fa-2x text-gray-300"></i>
